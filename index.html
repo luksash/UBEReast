@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <script src="js/button.js"></script>
+    <script>
+        $ (document).ready(function() {
+            $('select').selecter();
+        });
+    </script>
+    <title>Moscow Restaurants</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-logo">
+               <a href="#"><img src=".//img//logo.svg" alt="Логотип" class="header-logo-img"></a>
+            </div>
+            
+            <div class="w-delivery w-delivery--desktop">
+                <div class="asap">
+                    <p class="asap-text">ASAP</p>
+                </div>
+                <span class="asap-to">to</span>
+                <div class="header-location">
+                    <img class="header-location-img" src=".//img/location.svg" alt="Место назначения" class="location">
+                    <span class="header-location-adress">ul. Bolshaya Dmitrovka,22 </span>
+                </div>   
+            </div>
+            
+            
+            <form action="" class="header-forms">
+                <button class="sign-in" type="submit">Sign in</button>
+                <button class="register" type="submit">Register</button>
+            </form>
+            <div class="basket">
+                <a href="#"><img class="basket-img" src=".//img/basket.svg" alt="Корзина" class="header-basket"></a>
+            </div> 
+        </header>
+        <main>
+            <form class="form-search" action="" method="get">
+                <input class="search" name="s" placeholder="Search for restaurant or cuisine" type="search">
+            </form>
+
+            <div class="w-delivery  w-delivery--mobile">
+                    <div class="asap-mobile">When</div>
+                    <div class="asap-mobile">to</div>
+                    <div class="asap">
+                        <p class="asap-text">ASAP</p>
+                    </div>
+                    <div class="header-location">
+                        <img class="header-location-img" src=".//img/location.svg" alt="Место назначения" class="location">
+                        <span class="header-location-adress">ul. Bolshaya Dmitrovka,22 </span>
+                    </div>   
+                </div>
+
+                
+            <h1 class="moscow-restaurant">Moscow Restaurants</h1>
+            <ul class="card">
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src="./img/Restaurant/1.png" alt="Макдональдс" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">Макдоналдс — Газетный</p>
+                        <p class="name-kitchen">₽₽ • Бургеры</p>
+                        <p class="time">25 - 35 Min</p>
+                    </div>
+                </li>
+        
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src="./img/Restaurant/2.png" alt="ЦДМ" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">DimSum & Co — ЦДМ</p>
+                        <p class="name-kitchen">₽ • Японская • Китайская • Азиатская</p>
+                        <p class="time">40 - 50 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                     <a class "link-img" href="#"><img src=".//img/Restaurant/3.png" alt="Движок" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">ДвижОК — Манежная</p>
+                        <p class="name-kitchen">₽ • Американская • Европейская</p>
+                        <p class="time">35 - 45 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/4.png" alt="NHA" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">НЯ — NHA</p>
+                        <p class="name-kitchen">₽₽ • Вьетнамская</p>
+                        <p class="time">30 - 40 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/5.png" alt="Точка ДЗЫ" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">Точка Дзы — Цветной</p>
+                        <p class="name-kitchen">₽₽ • Вьетнамская</p>
+                        <p class="time">40 - 50 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/6.png" alt="Cinnabon" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">Cinnabon</p>
+                        <p class="name-kitchen">₽ • Выпечка • Десерты • Капкейки</p>
+                        <p class="time">25 - 35 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/7.png" alt="PIZZELOVE" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">PIZZELOVE</p>
+                        <p class="name-kitchen">₽₽ • Пицца</p>
+                        <p class="time">15 - 25 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/8.png" alt="Zю кафе" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">Zю кафе — Тверская</p>
+                        <p class="name-kitchen">₽₽ • Японская</p>
+                        <p class="time">25 - 35 Min</p>
+                    </div>
+                </li>
+                <li class="card__product">
+                    <a class "link-img" href="#"><img src=".//img/Restaurant/9.png" alt="BAR BQ Cafe" class="card__img"></a>
+                    <div class="card__desc">
+                        <p class="name-restaurant">Bar BQ Cafe — Манежная</p>
+                        <p class="name-kitchen">₽₽₽ • Европейская</p>
+                        <p class="time">30 - 40 Min</p>
+                    </div>
+                </li>
+            </ul>
+        </main>          
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-logo">
+                <img src=".//img/footer-logo.svg" alt="Логотип" class="footer-logo-img">
+            </div>
+            <div class="column">
+                <form class="form-select" method="get">
+                    <select id="language" name="language">
+                        <option value="Russian">Russian</option>
+                        <option value="French">French</option>
+                        <option value="Portuguese">Portuguese</option>
+                        <option value="English"selected>English</option>
+                    </select>
+                </form>
+                <div class="social">
+                    <span class="hashtag">#UberEats</span>
+                    <div class="social-icon">
+                        <img src="../ubereast/img/social/facebook.svg" alt="facebook" class="social-img">
+                        <img src="../ubereast/img/social/twitter.svg" alt="twitter" class="social-img">
+                        <img src="../ubereast/img/social/instagram.svg" alt="instagram" class="social-img">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <ul class="footer-menu">
+                    <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">About UberEats</li></a>   
+                    <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">Become a Delivery Partner</li></a>  
+                    <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">Become a Restaurant Partner</li></a>  
+                </ul>
+            </div>
+            <div class="column">
+                    <ul class="footer-menu footer-menu-margin">
+                            <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">See all cities</li></a>   
+                            <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">Pricing</li></a>  
+                            <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">Help</li></a>  
+                            <a class="footer-menu__item-link" href="#"><li class="footer-menu__item">FAQs</li></a>  
+                        </ul>
+            </div>
+            <div class="download">
+                <img src="../ubereast/img/app-store.svg" alt="" class="download-img">
+                <img src="../ubereast/img/google-play.png" alt="" class="download-img">
+            </div>
+            <ul class="footer-uber">
+                <li class="footer-uber__item">© 2017 Uber Technologies Inc.</li>
+                <li class="footer-uber__item"><a class="footer-uber-link" href="#">Privacy</a></li>
+                <li class="footer-uber__item"><a class="footer-uber-link" href="#">Terms</a></li>
+            </ul>
+        </div>
+        <div id="button-up"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,714 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(../font/roboto-regular.ttf);
+}
+@font-face {
+  font-family: roboto-light;
+  src: url(../font/roboto-light.ttf);
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(../font/roboto-medium.ttf);
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  max-width: 956px;
+  margin: 0 auto;
+}
+.header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-right: 12.76%;
+}
+.header-location {
+  display: inline-block;
+  width: 75.06%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+}
+.header-location-adress {
+  font-size: 1em;
+}
+.header-location-img {
+  vertical-align: middle;
+  margin: 0 4.08% 0 4.08%;
+}
+.header-forms {
+  width: 18.45%;
+  margin-right: 1.67%;
+}
+.w-delivery--mobile {
+  display: none;
+}
+.w-delivery--desktop {
+  margin-right: 9.62%;
+  width: 40.69%;
+}
+.w-delivery--desktop .asap {
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  width: 16.7%;
+  height: 40px;
+  display: inline-block;
+}
+.w-delivery--desktop .asap-text {
+  margin: 0;
+  line-height: 40px;
+  font-size: 1em;
+  font-family: roboto-regular;
+  text-align: center;
+  vertical-align: middle;
+}
+.w-delivery--desktop .asap-to {
+  font-size: 1em;
+  font-family: roboto-light;
+  fill: #626262;
+}
+.w-delivery--mobile {
+  margin: 0 1.25% 0 2.5%;
+  width: 96.25%;
+  height: 61px;
+}
+.w-delivery--mobile .header-location {
+  display: inline-block;
+  width: 72.7%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  margin-right: 0;
+}
+.w-delivery--mobile .header-location-adress {
+  font-size: 1em;
+}
+.w-delivery--mobile .asap {
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  width: 20.2%;
+  height: 40px;
+  display: inline-block;
+  margin: 2px 4.5% 0 0;
+}
+.w-delivery--mobile .asap-mobile {
+  font-size: 0.8125em;
+  font-family: roboto-regular;
+  color: #626262;
+  display: inline-block;
+  width: 27.93%;
+  height: 0;
+  margin-right: 40.2%;
+}
+.w-delivery--mobile .asap-mobile:first-child {
+  margin-right: 0;
+}
+.w-delivery--mobile .asap-text {
+  margin: 0;
+  line-height: 40px;
+  font-size: 0.8125em;
+  font-family: roboto-regular;
+  text-align: center;
+  vertical-align: middle;
+}
+.w-delivery--mobile .asap-to {
+  display: inline-block;
+  font-size: 1em;
+  font-family: roboto-light;
+  fill: #626262;
+}
+.sign-in {
+  width: 45.4%;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  color: #1D1D1D;
+  font-size: 0.8125em;
+  font-family: roboto-medium;
+  background: #fff;
+  margin-right: 6.03%;
+  padding: 0;
+}
+.register {
+  width: 45.4%;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  font-size: 0.8125em;
+  color: #fff;
+  font-family: roboto-medium;
+  background: #262626;
+  padding: 0;
+}
+.basket {
+  display: inline-block;
+  width: 4.18%;
+  text-align: center;
+  height: 72px;
+  line-height: 72px;
+}
+.basket-img {
+  vertical-align: middle;
+  text-align: center;
+}
+.form-search {
+  border-bottom: 1px solid #979797;
+}
+.search {
+  border-width: 0;
+  padding-left: 25px;
+  background: url(../img/search.svg) no-repeat;
+  background-position: left center;
+  width: 100%;
+  height: 48px;
+}
+.moscow-restaurant {
+  font-family: Roboto-Regular;
+  font-size: 1.375em;
+  margin: 56px 0 16px 0;
+  color: #1D1D1D;
+}
+.card {
+  display: inline-block;
+  padding: 0;
+  font-size: 0;
+}
+.card__img {
+  width: 100%;
+}
+.card__product {
+  font-size: 16px;
+  display: inline-block;
+  width: 32.21%;
+  margin-bottom: 1.67%;
+}
+.card__product:nth-child(3n+2) {
+  margin: 0 1.67% 0 1.67%;
+}
+.link-img {
+  text-decoration: none;
+}
+.name-restaurant {
+  font-size: 1em;
+  font-family: roboto-regular;
+  color: #1D1D1D;
+}
+.name-kitchen {
+  font-size: 0.875em;
+  font-family: roboto-regular;
+  color: #626262;
+}
+.time {
+  font-size: 0.8125em;
+  font-family: roboto-regular;
+  color: #1D1D1D;
+}
+.footer {
+  background: #262626;
+}
+.footer-logo {
+  padding: 56px 0 40px 0;
+  border-bottom: 1px solid #fff;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.form-select {
+  margin-top: 32px;
+}
+.hashtag {
+  font-family: roboto-regular;
+  font-size: 1em;
+  color: #fff;
+}
+.social {
+  margin-top: 33px;
+  width: 96px;
+}
+.social-icon {
+  text-align: justify;
+  width: 100%;
+  margin-top: 17px;
+}
+.social-icon:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+.social-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-menu {
+  padding: 0;
+  margin-top: 39px;
+  list-style-type: none;
+  margin-bottom: 48px;
+}
+.footer-menu__item {
+  color: #fff;
+  font-family: roboto-regular;
+  font-size: 0.8125em;
+  margin-top: 23px;
+}
+.footer-menu__item-link {
+  text-decoration: none;
+}
+.download {
+  text-align: center;
+  height: 120px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.download-img {
+  padding-top: 40px;
+}
+.download-img:last-child {
+  margin-left: 40px;
+}
+.footer-uber {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  height: 93px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-uber__item {
+  font-family: roboto-regular;
+  font-size: 0.6875em;
+  color: #fff;
+  width: 33%;
+}
+.footer-uber-link {
+  text-decoration: none;
+  color: #fff;
+}
+.photo-main {
+  padding-top: 80px;
+  width: 100%;
+  height: 284px;
+  background: url(../img/main-photo.svg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+}
+.inn {
+  width: 40.69%;
+  height: 204px;
+  background: #fff;
+  border-radius: 2px;
+}
+.name-inn {
+  font-family: roboto-regular;
+  font-size: 2.25em;
+  color: #1D1D1D;
+  text-align: center;
+  margin: 0;
+  padding: 38px 0 0 0;
+}
+.kitche-inn,
+.time-inn {
+  display: inline-block;
+  font-family: roboto-regular;
+}
+.kitche-inn {
+  margin: 62px 0 0 38px;
+  font-size: 0.875em;
+  color: #626262;
+}
+.time-inn {
+  width: 24.93%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 0.8125em;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+  border-radius: 16px;
+  margin-left: 24.67%;
+}
+.main-menu {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(237, 237, 237, 0.2);
+  margin-bottom: 56px;
+}
+.main-menu-link {
+  text-decoration: none;
+  font-size: 1em;
+  color: #626262;
+  font-family: roboto-regular;
+}
+.main-menu-link:hover {
+  color: #327430;
+}
+.main-menu__item {
+  display: inline-block;
+  padding: 32px 2.09% 29px 2.09%;
+}
+.main-menu__item:first-child {
+  padding-left: 0;
+}
+.header-snack {
+  color: #1D1D1D;
+  font-size: 1.375em;
+  font-family: roboto-regular;
+  margin: 0 0 32px 0;
+}
+.cards {
+  display: inline-block;
+  padding: 0;
+  font-size: 0;
+}
+.cards__item {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  display: inline-block;
+  width: 48.8%;
+  height: 160px;
+  margin: 0 6px 49px 0;
+}
+.cards__item:nth-child(2n+1) {
+  margin-right: 10px;
+}
+.cards__item:last-child {
+  margin-bottom: 80px;
+}
+.cards__item-desc {
+  font-size: 16px;
+  font-family: roboto-regular;
+  vertical-align: top;
+  display: inline-block;
+  width: 63.82%;
+  height: 160px;
+}
+.cards__item-view {
+  display: inline-block;
+  width: 36.17%;
+}
+.cards__item-view__photo {
+  height: 160px;
+  display: inline-block;
+  width: 100%;
+}
+.name-product {
+  margin: 16px 0 4px 16px;
+  font-size: 1em;
+}
+.name-product-desc {
+  position: absolute;
+  margin: 0 0 0 16px;
+  font-size: 0.8125em;
+}
+.price-product {
+  position: absolute;
+  vertical-align: bottom;
+  font-size: 0.9375em;
+  margin: 83px 0 0 16px;
+}
+#button-up {
+  display: none;
+  margin: 0;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  outline: none;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  line-height: 30px;
+  text-decoration: none;
+  background: url(../img/shape.svg) no-repeat 32px 27px #59bd5a;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* The media queries Moscow Restaurants*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header-logo {
+    margin: 0 2.76% 0 1.04%;
+  }
+  .header-location {
+    width: 72.7%;
+  }
+  .header-location-adress {
+    font-size: 0.8125em;
+  }
+  .w-delivery--mobile {
+    display: none;
+  }
+  .w-delivery--desktop {
+    margin-right: 11.62%;
+    width: 40.69%;
+  }
+  .w-delivery--desktop .asap {
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    width: 19.6%;
+    height: 40px;
+    display: inline-block;
+  }
+  .w-delivery--desktop .asap-text {
+    margin: 0;
+    line-height: 40px;
+    font-size: 0.8125em;
+    font-family: roboto-regular;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .w-delivery--desktop .asap-to {
+    font-size: 0.8125em;
+    font-family: roboto-light;
+    fill: #626262;
+  }
+  .form-search {
+    margin: 0 1.04%;
+  }
+  .moscow-restaurant {
+    margin-left: 1.04%;
+  }
+  .card__product {
+    width: 47.91%;
+    margin: 0 1.04% 16px 1.04%;
+  }
+  .card__product:nth-child(3n+2) {
+    margin: 0 1.04% 16px 1.04%;
+  }
+  .card__product:last-child {
+    margin-bottom: 48px;
+  }
+  .footer-logo {
+    padding: 56px 0 40px 8px;
+  }
+  .column {
+    width: 31%;
+    margin-left: 1.04%;
+  }
+  .footer-uber__item {
+    margin-left: 1.04%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header-logo {
+    margin: 0 12.76% 0 2.5%;
+  }
+  .header-logo-img {
+    width: 89.16%;
+    height: 11px;
+  }
+  .header-location {
+    display: none;
+  }
+  .header-forms {
+    width: 48.75%;
+    margin-right: 1.25%;
+  }
+  .basket {
+    display: none;
+  }
+  .form-search {
+    margin: 32px 1.25% 24px 2.5%;
+  }
+  .w-delivery--mobile {
+    display: block;
+  }
+  .w-delivery--desktop {
+    display: none;
+  }
+  .moscow-restaurant {
+    margin: 40px 0 16px 2.5%;
+  }
+  .card__product {
+    width: 96.25%;
+    margin: 0 1.25% 16px 2.5%;
+  }
+  .card__product:nth-child(3n+2) {
+    margin: 0 1.04% 16px 1.04%;
+  }
+  .card__product:last-child {
+    margin-bottom: 48px;
+  }
+  .footer-logo {
+    margin: 56px 2.5% 32px 2.5%;
+  }
+  .column {
+    width: 100%;
+    margin-left: 1.04%;
+    display: block;
+  }
+  .form-select,
+  .social {
+    margin: 32px 0 0 2.5%;
+  }
+  .footer-menu {
+    margin: 39px 0 0 2.5%;
+  }
+  .footer-menu-margin {
+    margin: 0 0 40px 2.5%;
+  }
+  .download {
+    margin: 0 2.5%;
+  }
+  .download-img:last-child {
+    margin-left: 24px;
+  }
+  .footer-uber {
+    padding: 40px 0;
+    flex-direction: column;
+    height: 93px;
+    align-items: flex-start;
+  }
+  .footer-uber__item {
+    font-family: roboto-regular;
+    font-size: 0.6875em;
+    color: #fff;
+    margin: 0 0 24px 2.5%;
+    width: 60%;
+  }
+  .footer-uber-link {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+/* The media queries inn pushkin*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header-logo {
+    margin: 0 2.76% 0 1.04%;
+  }
+  .header-location {
+    width: 72.7%;
+  }
+  .header-location-adress {
+    font-size: 0.8125em;
+  }
+  .w-delivery--desktop {
+    margin-right: 11.62%;
+    width: 40.69%;
+  }
+  .w-delivery--desktop .asap {
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    width: 19.6%;
+    height: 40px;
+    display: inline-block;
+  }
+  .w-delivery--desktop .asap-text {
+    margin: 0;
+    line-height: 40px;
+    font-size: 0.8125em;
+    font-family: roboto-regular;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .w-delivery--desktop .asap-to {
+    font-size: 0.8125em;
+    font-family: roboto-light;
+    fill: #626262;
+  }
+  .photo-main {
+    background: url(../img/main-photo-table.svg) no-repeat;
+    background-size: cover;
+  }
+  .inn {
+    width: 56.25%;
+    margin-left: 1.04%;
+  }
+  .cards__item {
+    width: 97.91%;
+    margin: 0 1.04% 32px 1.04%;
+  }
+  .cards__item:nth-child(2n+1) {
+    margin-right: 1.04%;
+  }
+  .cards__item:last-child {
+    margin-bottom: 48px;
+  }
+  .cards__item-desc {
+    width: 73.41%;
+  }
+  .cards__item-view {
+    width: 26.59%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .photo-main {
+    height: 124px;
+    padding-top: 131px;
+    background: url(../img/main-photo-mobile.svg) no-repeat;
+    background-size: cover;
+    margin-bottom: 112px;
+  }
+  .inn {
+    width: 96.25%;
+    margin: 0 1.04% 0 2.08%;
+  }
+  .name-inn {
+    padding-top: 24px;
+    font-size: 1.5em;
+  }
+  .kitche-inn {
+    text-align: center;
+    margin: 40px 0 16px 0;
+    width: 100%;
+  }
+  .time-inn {
+    display: block;
+    width: 30.62%;
+    height: 32px;
+    margin: 0 auto;
+  }
+  .main-menu {
+    display: none;
+  }
+  .header-snack {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .trait {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #757575;
+    margin-bottom: 43px;
+  }
+  .cards__item {
+    width: 96.25%;
+    margin: 0 1.30% 16px 2.59%;
+    height: 102px;
+  }
+  .cards__item:last-child {
+    margin-bottom: 40px;
+  }
+  .cards__item-desc {
+    width: 66.88%;
+    height: 102px;
+  }
+  .cards__item-view {
+    width: 33.11%;
+    height: 102px;
+  }
+  .cards__item-view__photo {
+    height: 102px;
+  }
+  .name-product {
+    margin-top: 0;
+  }
+  .price-product {
+    margin: 41px 0 0 16px;
+  }
+  .footer-logo {
+    margin: 0 2.5% 32px 2.5%;
+  }
+}
